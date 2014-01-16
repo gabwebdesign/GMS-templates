@@ -26,22 +26,12 @@ var _frameTime:Number = 3;
 var _duration:Number = 0.5;
 
 
-/* init */
-firstFrame(_frameTime);
-
-
-function firstFrame():Void{
-	
 	/* Param 1: type of animation, Param 2: target   */
 	_tl.init("fadeInStop", logo)
-	
-	
-	/*  this timer controls the seconds to keep in the banner */
 
+	/*  this timer controls the seconds to keep in the banner */
 	_tl.setTimer(_frameTime)
 	
-}
-
 ------
 
 
