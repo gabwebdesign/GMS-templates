@@ -1,25 +1,15 @@
-GMS-templates
-=============
+Basic Template AS2 Banners OLA
 
-Implementations the Greensock.com library on create templates to Advertisement banners.
+The basic template OLA Banner is based on Greensocks libraries. This implementation provides many advantages compared to full timeline manage process.
 
-----
+Animating with code may seem intimidating
+at first, but donít worry ñ youíll get the hang of it quickly. For addtional information check the following link: http://www.greensock.com/get-started-tweening/
 
-Hi, this is a single solutions to create a templates banners using a greensocks library.
-
-The firts case we are working on Actions Script, at the moment on AS2, then will work on AS3, Javascript, etc, adding the techology needed.
-
-----
-
-First of all, move the source code files Greensock and the owner file named MotionEventManager.as. When this done, import since the .fla files.
-
-
------
-
-import com.MotionEventManager;
+The first step is to locate the com file in the same place as your banner. This file must contain the MotionEventManager.as class. Once in the Banner, you need to initialize the class and some setups like time frame and duration to each animation.
 
 /* initializing the class to events */
-var _tl:MotionEventManager = new MotionEventManager();
+import com.MotionEventManager;
+var _tl:MotionEventManager = new MotionEventManager(); var _frameTime:Number = 3;
 
 /* global values */
 var _frameTime:Number = 3;
